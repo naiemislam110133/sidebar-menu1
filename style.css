@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&family=Rubik:wght@300;400;500;600;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #5b6677;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.sidebar{
+    width: 256px;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    border-radius: 30px;
+}
+
+.sidebar .user{
+    display: flex;
+    gap: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebar .user .user-img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+ .user-img img{
+    width: 100%;
+    object-fit: cover;
+   
+}
+.sidebar .user .user-details .title,
+.menu .title
+{
+    font-size: 11px;
+    font-weight: 500;
+    color: #757575;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.sidebar .user .user-details .name{
+    font-size: 14px;
+    font-weight: 500;
+}
+
